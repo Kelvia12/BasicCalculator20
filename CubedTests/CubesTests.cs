@@ -16,7 +16,7 @@ namespace Cubed.Tests
         [TestMethod()]
         public void CubedTest()
         {
-            Assert.AreEqual(1000, Cubedobj.Cubed(a));
+            //Assert.AreEqual(1000, Cubedobj.Cubed(a));
         }
     }
 }

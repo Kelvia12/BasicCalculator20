@@ -59,7 +59,7 @@ namespace BasicCalculator
 
         public dynamic Add(dynamic a, dynamic b)
         {
-            result = Adding(a, b);
+            //result = Adding(a, b);
 
             return result;
         }
