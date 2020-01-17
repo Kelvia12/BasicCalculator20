@@ -6,12 +6,13 @@ using System.Text;
 
 namespace StatOperations.Tests
 {
-    private readonly int datapoint = 2;
-    private readonly double mean = 3.0;
-    private readonly double standiv = 1.87;
+    
     [TestClass()]
     public class ZscoreTests
     {
+        private readonly int datapoint = 2;
+        private readonly double mean = 3.0;
+        private readonly double standiv = 1.87;
         [TestMethod()]
         public void ZScoreTest()
         {

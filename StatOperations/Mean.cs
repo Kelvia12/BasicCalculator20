@@ -7,6 +7,8 @@ namespace StatOperations
 {
     public class StatOperations
     {
+        public static object StatOperation { get; set; }
+
         public static dynamic Mean(dynamic values)
         {
             var sum = Operations.Addition.Sum(values);
