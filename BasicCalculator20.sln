@@ -23,15 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareRoot", "SquareRoot\Sq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{82BB6B10-23F0-46EC-9913-CAED1CFD6C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests1", "BasicCalculatorTests1\BasicCalculatorTests1.csproj", "{49CDC75B-B04D-47DA-A661-9D97A8D037D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculatorTests1", "BasicCalculatorTests1\BasicCalculatorTests1.csproj", "{49CDC75B-B04D-47DA-A661-9D97A8D037D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{8FA4FF65-D063-4F22-8D60-D2CAEB4089DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.csproj", "{8FA4FF65-D063-4F22-8D60-D2CAEB4089DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpersTests", "HelpersTests\HelpersTests.csproj", "{67A7AFF6-539B-4989-89E2-C846064B99A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpersTests", "HelpersTests\HelpersTests.csproj", "{67A7AFF6-539B-4989-89E2-C846064B99A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatOperations", "StatOperations\StatOperations.csproj", "{F044A3F9-591C-422D-A3C4-ADC73843CA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperations", "StatOperations\StatOperations.csproj", "{F044A3F9-591C-422D-A3C4-ADC73843CA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatOperationsTests", "StatOperationsTests\StatOperationsTests.csproj", "{BF6A51E1-ED8A-408D-A472-A6082605056B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperationsTests", "StatOperationsTests\StatOperationsTests.csproj", "{BF6A51E1-ED8A-408D-A472-A6082605056B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsCalculator", "StatisticsCalculator\StatisticsCalculator.csproj", "{34A38E0E-1374-4059-8A29-F3FEE7EF3574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsCalculatorTests", "StatisticsCalculatorTests\StatisticsCalculatorTests.csproj", "{AACA7E20-C250-41B6-89D7-3BE49F12D003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{BF6A51E1-ED8A-408D-A472-A6082605056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF6A51E1-ED8A-408D-A472-A6082605056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF6A51E1-ED8A-408D-A472-A6082605056B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A38E0E-1374-4059-8A29-F3FEE7EF3574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A38E0E-1374-4059-8A29-F3FEE7EF3574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A38E0E-1374-4059-8A29-F3FEE7EF3574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A38E0E-1374-4059-8A29-F3FEE7EF3574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACA7E20-C250-41B6-89D7-3BE49F12D003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACA7E20-C250-41B6-89D7-3BE49F12D003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACA7E20-C250-41B6-89D7-3BE49F12D003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACA7E20-C250-41B6-89D7-3BE49F12D003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
